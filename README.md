@@ -1,6 +1,6 @@
 # OmniFocus 2 Modifications Readme
 
-Welcome to my little OmniFocus 2 mod repository. Feel free to screw around with the attached scripts and offer any feedback. You can tell me directly on Twitter ([@poritsky][https://twitter.com/poritsky]) or here on GitHub.
+Welcome to my little OmniFocus 2 mod repository. Feel free to screw around with the attached scripts and offer any feedback. You can tell me directly on Twitter ([@poritsky](https://twitter.com/poritsky)) or here on GitHub.
 
 All I ask is that you keep this under your hat for a bit. By that I mean: no blogging about this, no repackaging it as your own.
 
