@@ -18,6 +18,8 @@ These are meant to be used *only* with OmniFocus 2 Pro. A few things I recommend
 
 These are by no means required, but the scripts were all designed with the above setup.
 
+One more thing. I've included an Alfred Workflow for running these scripts, but I've excluded general documentation on how to run the scripts. That's on you.
+
 ## Brain Dump.scpt
 
 I don’t really adhere to GTD that closely, so I use the term “brain dump” loosely. For me, it’s just any time I feel like listing items in my Inbox without any clutter. I like to make OmniFocus look like almost completely blank when I do this. The Brain Dump script does three things:
@@ -80,7 +82,7 @@ This .plist file will modify the look of OmniFocus. Think of it as light theming
 - Right click OmniFocus and select `Show Package Contents`
 - Go into `Contents/Resources` and find the file named `OFIFontRegistry.plist`
 - Make a backup copy of it somewhere else on your drive
-- ***No seriously back it and back up all of your data***
+- ***No seriously back it up and back up all of your data***
 - Make sure you actually made a copy of the .plist. Just dragging it out to your home folder will actually make an alias (with a little arrow on the icon), not a copy. Either drag while holding option down or do an Edit \> Copy, Edit \> Paste on the file.
 - Move the modified `OFIFontRegistry.plist` provided here in to `Contents/Resources` (you will need to replace the current file)
 - Restart OmniFocus
