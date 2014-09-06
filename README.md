@@ -18,7 +18,9 @@ These are meant to be used *only* with OmniFocus 2 Pro. A few things I recommend
 
 These are by no means required, but the scripts were all designed with the above setup.
 
-One more thing. I've included an Alfred Workflow for running these scripts, but I've excluded general documentation on how to run the scripts. That's on you.
+Also, I've included an Alfred Workflow for running these scripts, but I've excluded general documentation on how to run the scripts. One thing to keep in mind is that whatever application you choose to run the script with (including AppleScript Editor) will need Accessibility access to your system. On first run, you will get prompted to give the application access. This is managed in System Preferences > Security & Privacy > Accessibility.
+
+One more thing: the scripts will all act weird in fullscreen mode. I don't recommend using them there. Okay. On to the fun.
 
 ## Brain Dump.scpt
 
@@ -28,21 +30,9 @@ I don’t really adhere to GTD that closely, so I use the term “brain dump” 
 - Switches to your Inbox
 - Shrinks and centers the main OmniFocus window
 
-**Known Bugs:**
-
-- Will only work if the Sidebar, Inspector and Toolbar are shown
-
-That’s a huge bug, I know but this is a work in progress.
-
 ## Exit Brain Dump.scpt
 
 Exit Brain Dump does the opposite of Brain Dump. Essentially it “normalizes” the window back to a reasonable size and adds the Sidebar, Inspector and Toolbar back.
-
-**Known Bugs:**
-
-- Will only work if the Sidebar, Inspector and Toolbar are hidden
-
-Yeah, I know, a huge problem. I’ll figure it out.
 
 ## Inbox View.scpt
 
@@ -54,16 +44,9 @@ Inbox View fixes this filing problem with the following hack (recommended, if I 
 
 - Changes the current window to the Projects view
 - Creates a second window in Inbox view
-- Moves the left edge of the Inbox window in 305px, which should line up exactly with the right edge of the project list in your Project window
+- Moves the left edge of the Inbox window rightward 305px, which should line up exactly with the right edge of the project list in your Project window
 
 Now you can drag Inbox items to Projects from one window to the next. To “exit” this view, just close the Inbox window.
-
-**Known Bugs:**
-
-- Window will get resized so the two windows match. Not necessarily a bug just know your window is about to change sizes.
-- Sidebar must be on for this to be useful
-
-If the Sidebar is off the script will still run, but you won’t see a project list, which defeats the purpose.
 
 ## OmniFocus 2 Windows.alfredworkflow
 
