@@ -1,5 +1,13 @@
 # OmniFocus 2 Modifications Readme
 
+Welcome to my little OmniFocus 2 mod repository. Feel free to screw around with the attached scripts and offer any feedback. You can tell me directly on Twitter ([@poritsky][https://twitter.com/poritsky]) or here on GitHub.
+
+All I ask is that you keep this under your hat for a bit. By that I mean: no blogging about this, no repackaging it as your own.
+
+I realize this is a public repository and all, but this is presently a work-in-progress. All feedback is welcome. Eventually I'll document the ideas behind these mods more fully on [the candler blog](http://candlerblog.com). Until then, let me know what you think and enjoy. And get back to work, dammit.
+
+## Introduction
+
 OmniFocus 2 for Mac introduced a few things I really like, but also took away many things I had grown used to in the original OmniFocus. These hacks are attempts to bring some of those features back. They are kludgy, but they help.
 
 These are meant to be used *only* with OmniFocus 2 Pro. A few things I recommend before using these:
