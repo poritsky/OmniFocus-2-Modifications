@@ -60,14 +60,9 @@ This .plist file will modify the look of OmniFocus. Think of it as light theming
 
 **Installation:**
 
-- **Back up your data**
-- Go to `/Applications`
-- Right click OmniFocus and select `Show Package Contents`
-- Go into `Contents/Resources` and find the file named `OFIFontRegistry.plist`
-- Make a backup copy of it somewhere else on your drive
-- ***No seriously back it up and back up all of your data***
-- Make sure you actually made a copy of the .plist. Just dragging it out to your home folder will actually make an alias (with a little arrow on the icon), not a copy. Either drag while holding option down or do an Edit \> Copy, Edit \> Paste on the file.
-- Move the modified `OFIFontRegistry.plist` provided here in to `Contents/Resources` (you will need to replace the current file)
+- Move the modified `OFIFontRegistry.plist` provided here to `~/Library/Containers/com.omnigroup.OmniFocus2/Data/Library/Application Support/OmniFocus/`
+	- A faster way to get to this location is to go to select `File > Show Backups…` in OmniFocus, then go up one folder in Finder
+	- This method is more fully [documented on the OmniFocus forums](https://discourse.omnigroup.com/t/how-to-guide-create-your-own-custom-unsupported-themes-for-omnifocus-2/6774/8)
 - Restart OmniFocus
 
-Voila. I’ve used all system fonts (Avenir Next, Lucida Grande and Helvetica Neue) so you should see a dramatic change on restart. If you want to revert to the original, just put back the original copy of the `OFIFontRegistry.plist` you backed up in to `Contents/Resources` and restart OmniFocus. Alternatively you can redownload the app to get things back to normal.
+Voila. I’ve used all system fonts (Avenir Next, Lucida Grande and Helvetica Neue) so you should see a dramatic change on restart. If you want to revert to the original, just delete or rename the modified `OFIFontRegistry.plist`. This file should stay intact even through app updates.
